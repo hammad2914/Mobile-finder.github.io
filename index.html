@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moblie Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="parent">
+        <h1>MOBILE <i class="fa-solid fa-magnifying-glass"></i> FINDER </h1>
+        <p>Search your mobile's specifications!</p>
+
+        <div class="child1">
+            <div id="span1">
+                <label for="">Mobile Brand</label>
+                <br>
+                <select name="" id="brand" onchange="rendermodels()">
+                    <option value="samsung">samsung</option>
+                    <option value="iphone">iphone</option>
+                    <option value="xiomi">xiomi</option>
+                </select>
+            </div>
+
+            <div id="span2">
+                <label for="">Mobile Model</label>
+                <br>
+                <select name="" id="model">
+
+                </select>
+            </div>
+
+        </div>
+        <br>
+        <button onclick="searchVal()">SEARCH</button>
+
+        <div class="child2" id="child2">
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

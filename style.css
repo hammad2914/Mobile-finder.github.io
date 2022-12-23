@@ -1,0 +1,142 @@
+*{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.parent{
+    background-color: whitesmoke;
+    font-size: 3rem;
+    text-align: center;
+    padding: 30px;
+    height: 100vh;
+}
+h1{
+    font-size: 6rem;
+    color: rgb(44, 43, 43);
+}
+i{
+    font-size: 8rem;
+    color:rgb(8, 53, 252);
+}
+.child1{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-size: 5rem;
+    font-weight: 600;
+    color: rgb(44, 43, 43);
+}
+#brand,#model{
+    border:1px solid rgb(182, 181, 181);
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    background-color: whitesmoke;
+    color: rgb(44, 43, 43);
+}
+button{
+    font-size: 2rem;
+    background-color:whitesmoke;
+    border: transparent;
+    border-radius: 25px;
+    color:rgb(8, 53, 252);
+    width: 130px;
+    height: 50px;
+    font-weight: 600;
+    box-shadow: 0px 10px 15px  rgb(151, 149, 149);
+    transition: all 0.3s ease 0s;  
+}
+button:hover {
+    background-image: linear-gradient(#2163cc,#35b9e9);
+    box-shadow: 0px 15px 20px gray;
+    color:whitesmoke;
+    transform: translateY(-3px);
+  }
+
+h2{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color:rgb(8, 53, 252);
+}
+#child2{
+    margin-top: 60px;
+    font-size: 3rem;
+    font-weight:600;
+    background-color: rgb(225, 230, 230);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  rgb(180, 180, 180);
+    text-align: center;
+    display: none;
+    color: rgb(44, 43, 43);
+}  
+p span{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+.child2 p{
+    margin-top: 5px;
+}
+
+
+@media(max-width:680px){
+ 
+    #child2{
+        font-size: 2rem;
+        font-weight:600;
+        width: 70%;
+    }  
+    p span{
+        font-size: 1.3rem;
+        font-weight: 200;
+    }
+
+    h2{
+        font-size: 3rem; 
+    }
+    .parent{
+        background-color: whitesmoke;
+        font-size: 1.8rem;
+        
+    }
+    h1{
+        font-size: 3.2rem;
+        color: rgb(44, 43, 43);
+    }
+    i{
+        font-size: 4.5rem;
+        color:rgb(8, 53, 252);
+    }
+    .child1{
+        display:block;
+        justify-content: space-around;
+        margin-top: 50px;
+        font-size: 4rem;
+        font-weight: 600;
+        
+    }
+    #brand,#model{
+        border:1px solid rgb(182, 181, 181);
+        width: 300px;
+        height: 30px;
+    }
+    #span1,#span2{
+        margin-top: 30px;
+    }
+    button{
+        font-size: 1.5rem;
+        background-color:whitesmoke;
+        border: transparent;
+        border-radius: 25px;
+        color:rgb(8, 53, 252);
+        width: 100px;
+        height: 40px;
+         
+    }
+}
